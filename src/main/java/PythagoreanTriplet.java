@@ -23,7 +23,7 @@ public class PythagoreanTriplet {
             return true;
         if (!(o instanceof PythagoreanTriplet))
             return false;
-        Pythagor    eanTriplet other = (PythagoreanTriplet) o;
+        PythagoreanTriplet other = (PythagoreanTriplet) o;
         return a == other.a && b == other.b && c == other.c;
     }
 
